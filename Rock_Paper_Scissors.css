@@ -1,0 +1,169 @@
+*{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    
+   
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+}
+
+body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-image: url("https://img.freepik.com/premium-vector/hands-playing-rock-paper-scissors-game-flat-design-style-vector-illustration_540284-598.jpg?w=2000");
+ background-size: contain;
+
+}
+#winner{
+    margin-top: 40px;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(245, 189, 132);
+    box-shadow: 2px 2px 20px black;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+   
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 60%;
+    margin-top: 5%;
+}
+
+#player,#computer{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height: 300px;
+   width:310px;
+  
+
+}
+#user,#comp{
+    position: relative;
+    top:-20px;
+    height: 100px;
+    width: 100px;
+  
+  
+
+
+}
+#user{
+   right: 50px;
+}
+
+#second{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    z-index: 0;
+   
+}
+.button{
+    height: 90px;
+    width: 90px;
+   border-radius:50%;
+ background-color: rgb(30, 23, 14);
+ background-position:center;
+ background-size:cover;
+ 
+}
+
+#rock{
+  background-image: url("https://atharvakulkarniit.github.io/Rock-Paper-Scissor/rock1.png");  
+}
+
+#paper{
+   
+    background-image: url("https://atharvakulkarniit.github.io/Rock-Paper-Scissor/paper1.png");
+  }
+
+#scissors{
+    background-image: url("https://atharvakulkarniit.github.io/Rock-Paper-Scissor/scissor1.png");
+  }
+
+  
+.u:hover{
+
+    border: 5px solid white;
+}
+
+#output{
+    height: 300px;
+  width: 100px;
+    background-color: rgb(250, 242, 234);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 20px black;
+}
+#computerChoice,#userChoice{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(227, 151, 51);
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+#userChoice{
+    border-radius: 1px 20px 20px 20px;
+    align-self: flex-end;
+}
+#computerChoice{
+    border-radius: 20px 1px 20px 20px;
+    align-self: flex-start;
+
+}
+#rounds{
+    height: 50px;
+    width: 70px;
+    background-color: azure;
+    border-radius:70%;
+    text-align: center;
+    padding-top: 20px;
+   font-size: 30px;
+    border: 2px solid black;
+}
+#result{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 5%;
+}
+.result{
+    height: 100px;
+    width: 100px;
+padding-left: 20px;
+border: 2px solid;
+background-color: rgb(247, 192, 138);
+box-shadow: 2px 2px 20px black;
+}
+
+#newGame{
+position: absolute;
+height: 50px;
+width: 150px;
+text-shadow: 2px 2px 2px rgb(72, 72, 70);
+background-color: rgb(27, 27, 26);
+border: 3px solid rgb(206, 204, 201);
+text-align: center;
+font-size: 25px;
+padding-top: 10px;
+top: 0;
+left: 0;
+color: aliceblue;
+}
