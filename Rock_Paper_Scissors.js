@@ -65,7 +65,7 @@ if (Player==Com) {
     t_wins.innerHTML=`${t++}`;
     winner.innerHTML="Match is Tie"
 }
-else if (Player=="sesors") {
+else if (Player=="scissors") {
     w=Com=="rock"?false:true;
     win(w)
 }
